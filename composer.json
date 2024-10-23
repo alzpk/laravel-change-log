@@ -1,0 +1,19 @@
+{
+    "name": "alzpk/laravel-change-log",
+    "description": "Package that makes it easy to log any changes for your models.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alzpk\\LaravelChangeLog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Hansen",
+            "email": "mh1986@outlook.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
