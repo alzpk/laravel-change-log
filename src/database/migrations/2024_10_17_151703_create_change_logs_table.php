@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('change_logs', function (Blueprint $table) {
             $table->id();
             $table->morphs('loggable');
-            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
             $table->enum('action', ['created', 'updated', 'deleted']);
             $table->json('data_from')->nullable();
             $table->json('data_to')->nullable();
